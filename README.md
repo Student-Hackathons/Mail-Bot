@@ -2,10 +2,19 @@
 
 A bot to send reminders and notifications to hackers about announcements.
 
-# Folder structure
+# Contents
 
 Source code are inside src directory.
 
-`announcements` -> `Sending mails for announcing or updates`.
+ `Sending mails for announcing or updates`
 
-No external modules are required for now cuz we are using inbuilt mails.
+      - JoinDiscord.py
+      - ReminderMail.py
+      - SocialAnnouncements.py
+
+    .
+    ├── JoinDiscord.py                                # Mail Template for Joining Discord 
+    ├── ReminderMail.py                             # Mail Template for Reminders for hackers 
+    └── SocialAnnouncements.py             # Mail Template for Social Annoucements
+
+No external modules are required for now, we are using inbuilt mails.
